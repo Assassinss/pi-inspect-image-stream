@@ -10,10 +10,16 @@ A minimal fork of `pi-inspect-image` for custom OpenAI-compatible vision APIs th
 
 ## Install
 
-Use it as a local Pi package:
+Install from GitHub:
 
 ```bash
-pi install D:/gitproject/pi-inspect-image-stream
+pi install https://github.com/<your-user>/pi-inspect-image-stream
+```
+
+For local development:
+
+```bash
+pi install ./pi-inspect-image-stream
 ```
 
 If you already have `npm:pi-inspect-image` installed, remove or disable it first to avoid duplicate `inspect_image` tools.
