@@ -1,0 +1,22 @@
+{
+  "name": "pi-inspect-image-stream",
+  "version": "0.1.0",
+  "description": "Pi inspect_image extension with stream/SSE support for custom OpenAI-compatible vision APIs",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "vision",
+    "image-analysis"
+  ],
+  "license": "MIT",
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "typebox": "*"
+  }
+}
