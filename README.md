@@ -13,7 +13,7 @@ A minimal fork of `pi-inspect-image` for custom OpenAI-compatible vision APIs th
 Install from GitHub:
 
 ```bash
-pi install https://github.com/<your-user>/pi-inspect-image-stream
+pi install git:github.com/Assassinss/pi-inspect-image-stream
 ```
 
 For local development:
