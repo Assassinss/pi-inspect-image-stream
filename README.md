@@ -26,7 +26,7 @@ If you already have `npm:pi-inspect-image` installed, remove or disable it first
 
 ## Config
 
-Add this to `.pi/settings.json` in the project where you use it:
+Add this to `.pi/settings.json` in the project where you use it, or to the global fallback at `~/.pi/agent/settings.json`:
 
 ```json
 {
@@ -39,6 +39,7 @@ Add this to `.pi/settings.json` in the project where you use it:
 ```
 
 Notes:
+- Load order is project `.pi/settings.json` first, then global `~/.pi/agent/settings.json`
 - `baseUrl` should be the API root without the trailing `/v1`
 - Set `visionConfig.stream` explicitly if you need to override the default
 
